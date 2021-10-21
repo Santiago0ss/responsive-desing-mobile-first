@@ -385,6 +385,7 @@ main {
     position: relative;
     height: 316px;
     width: 75%;
+    margin: 0 auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -396,7 +397,7 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 15px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -465,7 +466,7 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 15px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -517,12 +518,12 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 15px 0;
     padding: 0 15px;
     background-color: var(--black);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
-}
+} 
 .ilimitado {
     position: absolute;
     width: 120px;
